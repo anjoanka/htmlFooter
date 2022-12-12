@@ -41,7 +41,7 @@ h4{
 
 .nav{
     width: 10%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 img{
@@ -65,10 +65,14 @@ a{
     color: #828282;
 }
 
+a:hover {
+    color: #605f5f;
+    transition: all .3s;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
